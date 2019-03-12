@@ -3,7 +3,7 @@ pipeline {
     stages {
     stage ('git clone ') {
     steps { 
-   git branch: 'master', url: 'git@https://github.com/nareshchinnamsetti/Terraform.git'
+   git branch: 'master', url: 'git@github.com:nareshchinnamsetti/Terraform.git'
     
     
     stage('Set Terraform path') {
